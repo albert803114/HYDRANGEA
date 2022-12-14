@@ -1,0 +1,88 @@
+.amenu {
+    display: block;
+    width: 300px;
+    height: 50px;
+    background-color: #90c6db;
+    color: #000000;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    transition: text-decoration 10s;
+}
+
+.amenu::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    margin: -10px 50px;
+    background-color: #ff0;
+    transition: .8s;
+}
+
+.amenu:hover {
+    background-color: #FF9611;
+    color: #FFFFFF;
+    text-shadow: 0 0 3px #FFF, 0 0 3px #FFF, 0 0 3px #FFF;
+    margin-top: -2px;
+    box-shadow: 0 5px 10px #666;
+}
+
+.amenu:hover::after {
+    width: 70%;
+
+}
+
+.h2_style {
+    text-shadow: 0 0 3px #FFF, 0 0 3px rgb(30, 11, 75), 0 0 3px rgb(182, 39, 39);
+    background-color: antiquewhite;
+    border-radius: 25px;
+    padding: 20px;
+}
+.h3_style {
+    text-shadow: 0 0 3px #FFF, 0 0 3px rgb(30, 11, 75), 0 0 3px rgb(182, 39, 39);
+ 
+}
+
+
+/**********/
+.box {
+    float: left;
+    padding: 15px;
+    margin: 20px;
+    background-color: #90c6db;
+    transition: all .5s;
+    box-shadow: 0 5px 10px #666;
+    border-radius: 10%;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+.box img {
+    transition: all .5s;
+    border-radius: 10%;
+}
+
+.box:hover img {
+    border-radius: 50%;
+}
+
+.box h3 {}
+
+.box p {}
+
+
+
+
+
+
+/* font-size: 50px; */
+/* justify-content:space-around */
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+}
